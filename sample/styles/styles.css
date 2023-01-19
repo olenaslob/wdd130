@@ -5,6 +5,14 @@ body {
   }
 
 /*the background of the nav changed colors and a little bit of space, or padding, is added all around the links in the nav.*/
+ .main-para {
+    font-size: 1.5em;
+    line-height: 1.5em;
+  }
+ #active {
+  background-color: white;
+  color: steelblue;
+ }
   nav {
     background-color: steelblue;
     padding: 10px;
@@ -30,3 +38,4 @@ body {
     background-color: steelblue;
     color: white;
   }
+  
