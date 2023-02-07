@@ -1,7 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&display=swap');
+
 #hero-img{
     width: 100%;
 }
-div {
+
+body {
+    background-color: #fff;
+}
+
+#content {
     max-width: 1600px;
     margin: 0 auto;
 }
@@ -16,7 +23,9 @@ nav a, #hero-msg h1, #hero-msg h4, .button-box, main section {
 
 body{
     background-color: white;
+    font-family: Roboto, Helvetica, sans-serif;
 }
+
 header{
     background-color: #f4a261;
     color: #2a9d8f;
@@ -25,8 +34,14 @@ header{
 .book, .join{
     text-align: center;
     text-decoration: none;
-    color: #e76f51;
+    background-color: #d9c2a3;
+    color: black;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
+
 .book:hover, .join:hover{
 
     color:#f4a261 ;
@@ -36,6 +51,9 @@ header{
 }
 .msg {
     background-color: #2a9d8f;
+    font-size: 1em;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 
@@ -44,6 +62,7 @@ nav a{
     background-color: #f4a261;
     text-align: center;
     text-decoration: none;
+    padding: 35px;
 }
 nav a:hover{
     background-color: #e76f51;
@@ -51,22 +70,30 @@ nav a:hover{
 }
 
 .home-title{
-    color:#264653
+    color:#264653;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 
 h4 {
-    color: #e76f51;
+    color: #264653;
+    background-color: #f4a261;
 }
 .msg h2{
     color: #264653;
+    background-color: #f4a261;
 }
 .msg p{
     color:  #264653;
+    padding-bottom: 15px;
 }
 footer {
     background-color: #2a9d8f;
     clear: both;
     color: #e76f51;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a{
     color: #264653;
@@ -80,12 +107,31 @@ footer a:hover{
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 footer p {
+    background-color: #f4a261;
+    color: #264653;;
     font-size: 1.2em;
 }  
 
 footer p a:hover {
     text-decoration: underline;
 } 
+
+.mountains {
+    height: 725px;
+}
+
+.logo {
+    width: 80px;
+}
+
+.card-img {
+    border: 10px solid #d9c2a3;
+}
+
+main section img {
+    box-sizing: border-box;
+}
