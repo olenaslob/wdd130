@@ -10,7 +10,7 @@
     margin-top: -100px;
 }
 
-#hero-box {
+#hero-box, #river2-box {
     grid-column: 1/4;
     grid-row: 1/3;
     z-index: -1;
@@ -208,6 +208,23 @@ footer p a:hover {
 
 main section img {
     box-sizing: border-box;
+}
+
+#river2-img{
+    width: 100%;
+}
+
+.dates-title{
+    color:#264653;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+}
+
+.dates-grid {
+text-align: center;
+
 }
 
 @media screen and (max-width: 900px) {
