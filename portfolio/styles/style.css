@@ -77,6 +77,7 @@ header{
 nav {
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 nav a{
@@ -144,7 +145,7 @@ footer p a:hover {
 }
 
 .logo {
-    width: 80px;
+    width: 120px;
 }
 
 .card-img {
